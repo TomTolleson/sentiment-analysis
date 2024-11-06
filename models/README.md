@@ -20,7 +20,8 @@ This model is a fine-tuned version of [distilbert-base-uncased](https://huggingf
 
 ## Model description
 
-More information needed
+Model is hosted on huggingface at tangohoteltango/sentimaent-analysis
+https://huggingface.co/tangohoteltango/sentiment-analysis
 
 ## Intended uses & limitations
 
