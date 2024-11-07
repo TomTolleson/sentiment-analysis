@@ -1,14 +1,6 @@
----
-title: "Sentiment Analysis Model"
-tags:
-  - sentiment-analysis
-  - huggingface
-  - model
----
-
 # Sentiment Analysis Model
 
-This project is a sentiment analysis model designed to classify text data into positive, negative, or neutral sentiments. It leverages the Hugging Face Transformers library to provide state-of-the-art performance in natural language processing tasks.
+This project is a sentiment analysis model designed to classify financial text data into positive, negative, or neutral sentiments. It leverages the Hugging Face Transformers library and DistilBERT architecture, fine-tuned on the Financial PhraseBank dataset.
 
 ## Table of Contents
 - [Features](#features)
@@ -20,10 +12,15 @@ This project is a sentiment analysis model designed to classify text data into p
 - [License](#license)
 
 ## Features
-- Pre-trained models for quick deployment.
-- Fine-tuning capabilities on custom datasets.
-- Easy integration with Hugging Face Hub for model sharing.
+- Pre-trained DistilBERT model fine-tuned on financial data
+- Real-time sentiment analysis through Gradio interface
+- Three-way classification (Positive, Negative, Neutral)
+- Hugging Face Hub integration for model sharing
+- Easy deployment and scalability
+- Batch processing capabilities
 
 ## Installation
-
-To get started, clone the repository and install the required packages:
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/sentiment-analysis.git
+cd sentiment-analysis
