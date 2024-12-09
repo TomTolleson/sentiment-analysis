@@ -1,7 +1,3 @@
----
-title: "Sentiment Analysis Model"
-
-
 # Sentiment Analysis Model
 
 This project is a sentiment analysis model designed to classify text data into positive, negative, or neutral sentiments. It leverages the Hugging Face Transformers library to provide state-of-the-art performance in natural language processing tasks.
