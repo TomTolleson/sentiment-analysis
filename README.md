@@ -1,10 +1,6 @@
 ---
 title: "Sentiment Analysis Model"
-tags:
-  - sentiment-analysis
-  - huggingface
-  - model
----
+
 
 # Sentiment Analysis Model
 
